@@ -7,7 +7,7 @@ var Concept093 = Concept{
 	Category:    "Concurrency",
 	Name:        "93. Context with Timeout",
 	Description: "Use context for cancellation and timeouts",
-	Instruction: "Create a context with a 100 millisecond timeout using the WithTimeout function from the context package. Print the word "done" immediately without waiting for the timeout.",
+	Instruction: `Create a context with a 100 millisecond timeout using the WithTimeout function from the context package. Print the word "done" immediately without waiting for the timeout.`,
 	Boilerplate: `package main
 
 import (

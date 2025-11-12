@@ -7,7 +7,7 @@ var Concept062 = Concept{
 	Category:    "Concurrency",
 	Name:        "62. WaitGroup Basics",
 	Description: "Use sync.WaitGroup to wait for goroutines",
-	Instruction: "Declare a WaitGroup, add 1 to it, launch a goroutine that defers calling Done on the WaitGroup and prints the word "done", then call Wait on the WaitGroup in main",
+	Instruction: `Declare a WaitGroup, add 1 to it, launch a goroutine that defers calling Done on the WaitGroup and prints the word "done", then call Wait on the WaitGroup in main`,
 	Boilerplate: `package main
 
 import (

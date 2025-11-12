@@ -7,7 +7,7 @@ var Concept007 = Concept{
 	Category:    "Core Syntax",
 	Name:        "7. If/Else",
 	Description: "Conditional branching",
-	Instruction: "If 10 is greater than 5, print "yes", otherwise print "no"",
+	Instruction: `If 10 is greater than 5, print "yes", otherwise print "no"`,
 	Boilerplate: `package main
 
 import "fmt"

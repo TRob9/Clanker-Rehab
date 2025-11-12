@@ -7,7 +7,7 @@ var Concept066 = Concept{
 	Category:    "Standard Library",
 	Name:        "66. strings.Contains",
 	Description: "Check if string contains substring",
-	Instruction: "Use the Contains function from the strings package to check whether the word "hello" contains the substring ll, then print the result",
+	Instruction: `Use the Contains function from the strings package to check whether the word "hello" contains the substring ll, then print the result`,
 	Boilerplate: `package main
 
 import (

@@ -7,7 +7,7 @@ var Concept054 = Concept{
 	Category:    "Concurrency",
 	Name:        "54. Goroutine Basics",
 	Description: "Launch goroutine with go",
-	Instruction: "Launch an anonymous function in a goroutine that prints the word "hello", then sleep for 100 milliseconds to allow it to complete",
+	Instruction: `Launch an anonymous function in a goroutine that prints the word "hello", then sleep for 100 milliseconds to allow it to complete`,
 	Boilerplate: `package main
 
 import (

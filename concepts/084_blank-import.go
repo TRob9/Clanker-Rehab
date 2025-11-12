@@ -7,7 +7,7 @@ var Concept084 = Concept{
 	Category:    "Tooling & Tests",
 	Name:        "84. Blank Import",
 	Description: "Import for side effects with _",
-	Instruction: "Import fmt using the blank identifier for side effects only, then print "ok" using the Println function",
+	Instruction: `Import fmt using the blank identifier for side effects only, then print "ok" using the Println function`,
 	Boilerplate: `package main
 
 import (

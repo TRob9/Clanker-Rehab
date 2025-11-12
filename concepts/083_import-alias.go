@@ -7,7 +7,7 @@ var Concept083 = Concept{
 	Category:    "Tooling & Tests",
 	Name:        "83. Import Alias",
 	Description: "Alias imported package",
-	Instruction: "Import the fmt package with an alias f, then use the Println function from the aliased package to print "alias"",
+	Instruction: `Import the fmt package with an alias f, then use the Println function from the aliased package to print "alias"`,
 	Boilerplate: `package main
 
 func main() {

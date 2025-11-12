@@ -7,7 +7,7 @@ var Concept079 = Concept{
 	Category:    "Error Handling",
 	Name:        "79. errors.Is",
 	Description: "Check error identity",
-	Instruction: "Create a base error using the New function from the errors package with message base, wrap it using the Errorf function with format "w: %w" and base, then print the result of using the Is function from the errors package to check if wrapped matches base",
+	Instruction: `Create a base error using the New function from the errors package with message base, wrap it using the Errorf function with format "w: %w" and base, then print the result of using the Is function from the errors package to check if wrapped matches base`,
 	Boilerplate: `package main
 
 import (

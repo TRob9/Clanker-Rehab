@@ -1,0 +1,8 @@
+FROM golang:1.25-alpine
+RUN apk add --no-cache git
+WORKDIR /app
+COPY go.mod ./
+RUN go mod download || true
+COPY . .
+EXPOSE 3000
+CMD ["go", "run", "main.go"]

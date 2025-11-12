@@ -7,7 +7,7 @@ var Concept076 = Concept{
 	Category:    "Error Handling",
 	Name:        "76. Basic Error Check",
 	Description: "Check if error is nil",
-	Instruction: "Define a function f that returns an error and returns nil, call f and check if the error is not nil, print "err" if true or the word "ok" if false",
+	Instruction: `Define a function f that returns an error and returns nil, call f and check if the error is not nil, print "err" if true or the word "ok" if false`,
 	Boilerplate: `package main
 
 import "fmt"

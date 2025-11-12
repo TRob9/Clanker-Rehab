@@ -7,7 +7,7 @@ var Concept064 = Concept{
 	Category:    "Standard Library",
 	Name:        "64. fmt.Println",
 	Description: "Print with newline",
-	Instruction: "Print the word "hello" using the Println function from the fmt package",
+	Instruction: `Print the word "hello" using the Println function from the fmt package`,
 	Boilerplate: `package main
 
 import "fmt"

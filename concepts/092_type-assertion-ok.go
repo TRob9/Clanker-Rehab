@@ -7,7 +7,7 @@ var Concept092 = Concept{
 	Category:    "Miscellaneous",
 	Name:        "92. Type Assertion with ok",
 	Description: "Safely assert type with comma ok",
-	Instruction: "Declare an empty interface with value 42, then use type assertion with the comma-ok idiom to safely check" if it is an integer. Print the ok value.",
+	Instruction: `Declare an empty interface with value 42, then use type assertion with the comma-ok idiom to safely check" if it is an integer. Print the ok value.`,
 	Boilerplate: `package main
 
 import "fmt"

@@ -7,7 +7,7 @@ var Concept049 = Concept{
 	Category:    "Interfaces",
 	Name:        "49. Type Switch",
 	Description: "Switch on interface type",
-	Instruction: "Declare an empty interface variable with value 3, then use a type switch to print "int"" if it is an integer",
+	Instruction: `Declare an empty interface variable with value 3, then use a type switch to print "int" if it is an integer`,
 	Boilerplate: `package main
 
 import "fmt"

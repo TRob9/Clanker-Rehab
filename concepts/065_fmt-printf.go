@@ -7,7 +7,7 @@ var Concept065 = Concept{
 	Category:    "Standard Library",
 	Name:        "65. fmt.Printf",
 	Description: "Formatted print",
-	Instruction: "Print the text "num: 5" using Printf from the fmt package with the integer format specifier",
+	Instruction: `Print the text "num: 5" using Printf from the fmt package with the integer format specifier`,
 	Boilerplate: `package main
 
 import "fmt"

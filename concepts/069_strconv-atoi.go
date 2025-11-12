@@ -7,7 +7,7 @@ var Concept069 = Concept{
 	Category:    "Standard Library",
 	Name:        "69. strconv.Atoi",
 	Description: "Convert string to int",
-	Instruction: "Use the Atoi function from the strconv package to convert the string "123" to an integer while ignoring any error, then print the result",
+	Instruction: `Use the Atoi function from the strconv package to convert the string "123" to an integer while ignoring any error, then print the result`,
 	Boilerplate: `package main
 
 import (

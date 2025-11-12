@@ -7,7 +7,7 @@ var Concept008 = Concept{
 	Category:    "Core Syntax",
 	Name:        "8. Switch Statement",
 	Description: "Switch with cases",
-	Instruction: "Create a switch statement with short declaration that assigns the value 2 to variable x, then print "two" when the case matches 2",
+	Instruction: `Create a switch statement with short declaration that assigns the value 2 to variable x, then print "two" when the case matches 2`,
 	Boilerplate: `package main
 
 import "fmt"

@@ -7,7 +7,7 @@ var Concept074 = Concept{
 	Category:    "Standard Library",
 	Name:        "74. errors.New",
 	Description: "Create simple error",
-	Instruction: "Use errors.New to create an error with message \"fail\", assign to err, then print err.Error()",
+	Instruction: `Use errors.New to create an error with message \"fail\", assign to err, then print err.Error()`,
 	Boilerplate: `package main
 
 import (

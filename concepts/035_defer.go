@@ -7,7 +7,7 @@ var Concept035 = Concept{
 	Category:    "Functions & Closures",
 	Name:        "35. Defer Statement",
 	Description: "Defer execution until function returns",
-	Instruction: "Use defer to print "world", then print "hello" with a trailing space, which should output hello world",
+	Instruction: `Use defer to print "world", then print "hello" with a trailing space, which should output hello world`,
 	Boilerplate: `package main
 
 import "fmt"
