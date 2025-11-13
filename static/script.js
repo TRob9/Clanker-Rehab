@@ -457,7 +457,7 @@ function setupEventListeners() {
     document.getElementById('settings-btn').addEventListener('click', openSettings);
     document.querySelector('.close').addEventListener('click', closeSettings);
     document.getElementById('save-settings').addEventListener('click', saveSettingsModal);
-    document.getElementById('reset-all-data').addEventListener('click', resetAllData);
+    document.getElementById('clear-all-data').addEventListener('click', clearAllData);
     document.getElementById('teach-btn').addEventListener('click', openTeachingPanel);
     document.querySelector('.close-teaching').addEventListener('click', closeTeachingPanel);
     document.getElementById('show-tests-btn').addEventListener('click', showTests);
@@ -762,26 +762,16 @@ function saveSettingsModal() {
     }
 }
 
-function resetAllData() {
+function clearAllData() {
     const confirmed = confirm(
-        'Are you SURE you want to reset ALL data?\n\n' +
-        'This will permanently delete:\n' +
-        '• All learned concepts\n' +
-        '• All saved solutions\n' +
-        '• All drafts\n' +
-        '• All settings\n\n' +
-        'This action CANNOT be undone!\n\n' +
-        'After reset, do a hard refresh (Cmd+Shift+R on Mac, Ctrl+Shift+R on Windows) to clear cached files.'
+        'This will clear all learned concepts, answers, drafts, and preferences - are you sure you want to proceed?'
     );
 
     if (confirmed) {
-        // Clear all localStorage
+        // Clear all localStorage (learned concepts, solutions, drafts, settings)
         localStorage.clear();
 
-        // Show confirmation
-        alert('All data has been cleared! The page will now reload.\n\nRemember to do a hard refresh (Cmd+Shift+R) to clear cached files.');
-
         // Reload the page
-        window.location.reload(true);
+        window.location.reload();
     }
 }
